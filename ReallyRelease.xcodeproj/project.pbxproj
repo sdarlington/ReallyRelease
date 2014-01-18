@@ -22,6 +22,7 @@
 		C4B9BAEE188A9E0B00134930 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B9BACD188A9E0B00134930 /* UIKit.framework */; };
 		C4B9BAF6188A9E0B00134930 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4B9BAF4188A9E0B00134930 /* InfoPlist.strings */; };
 		C4B9BAF8188A9E0B00134930 /* ReallyReleaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B9BAF7188A9E0B00134930 /* ReallyReleaseTests.m */; };
+		C4B9BB03188A9E1800134930 /* NSObject+ReallyRelease.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B9BB02188A9E1800134930 /* NSObject+ReallyRelease.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C4B9BAF3188A9E0B00134930 /* ReallyReleaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReallyReleaseTests-Info.plist"; sourceTree = "<group>"; };
 		C4B9BAF5188A9E0B00134930 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4B9BAF7188A9E0B00134930 /* ReallyReleaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReallyReleaseTests.m; sourceTree = "<group>"; };
+		C4B9BB01188A9E1800134930 /* NSObject+ReallyRelease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ReallyRelease.h"; sourceTree = "<group>"; };
+		C4B9BB02188A9E1800134930 /* NSObject+ReallyRelease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ReallyRelease.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				C4B9BAE2188A9E0B00134930 /* WSLViewController.m */,
 				C4B9BAE4188A9E0B00134930 /* Images.xcassets */,
 				C4B9BAD0188A9E0B00134930 /* Supporting Files */,
+				C4B9BB01188A9E1800134930 /* NSObject+ReallyRelease.h */,
+				C4B9BB02188A9E1800134930 /* NSObject+ReallyRelease.m */,
 			);
 			path = ReallyRelease;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B9BB03188A9E1800134930 /* NSObject+ReallyRelease.m in Sources */,
 				C4B9BAD6188A9E0B00134930 /* main.m in Sources */,
 				C4B9BAE3188A9E0B00134930 /* WSLViewController.m in Sources */,
 				C4B9BADA188A9E0B00134930 /* WSLAppDelegate.m in Sources */,
